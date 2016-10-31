@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;font-family:"微软雅黑"}
+a{text-decoration:none;}
+img{display:block}
+li{list-style:none}
+
+/*以上是重置样式*/
+/*这是header样式*/
+.header{width:980px;height:100px;margin:0 auto;padding-left:20px;}
+.logo{width:245px;23px;float:left;margin-top:48px}
+.biaodan{width:226px;height:27px;border:1px solid #999;float:right;background:#f1f1f1;margin-top:50px;margin-right:19px}
+.tex{width:185px;height:27px;float:left;padding-left:15px;border:0;background:#f1f1f1}
+.sub{width:17px;height:13px;float:left;border:0;background:url(../images/search.jpg);margin-top:10px;}
+/*这是导航样式*/
+.nav{width:974px;height:59px;margin:0 auto;background:#313131;padding-left:26px}
+.nav li{width:119px;height:59px;font-size:12px;float:left;line-height:59px;text-align:center;border-right:1px solid black;}
+.nav li a{color:white}
+.nav .noline{border:0}
+/*这是banner图样式*/
+.banner{width:1000px;height:464px;margin:0 auto;}
+/*这是main样式*/
+.main{width:1000px;height:241px;margin:0 auto;}
+/*这是new样式*/
+.new{width:478px;height:227px;padding-top:14px;padding-left:22px;float:left}
+.new h2{height:62px;font-size:18px;line-height:62px;font-weight:100;color:#212121}
+.new li{width:310px;height:24px;font-size:12px;line-height:24px;color:#505050;padding-left:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background:url(../images/list.jpg) no-repeat left center}
+/*这是jieshao样式*/
+.jieshao{width:215px;height:227px;float:left;background:#f1f1f1;padding-left:25px;padding-top:14px}
+.jieshao h2{height:62px;font-size:18px;line-height:62px;font-weight:100;color:#212121}
+.part01{height:26px;font-size:12px;line-height:26px;color:#4f4f4f}
+.part02{height:24px;font-size:12px;line-height:24px;color:#4f4f4f}
+.part03{width:190px;line-height:24px;font-size:12px;color:#939393;margin-top:15px}
+/*这是rencai样式*/
+.rencai{width:235px;height:241px;margin:0 auto;float:left;padding-left:25px;background:url(../images/paper.jpg) no-repeat right bottom}
+.rencai h2{height:62px;font-size:18px;line-height:62px;font-weight:100;color:#212121}
+.rencai p{width:180px;height:48px;font-size:12px;line-height:24px;color:#5f5f5f;padding-bottom:50px}
+.more{width:66px;height:19px;}
+/*这是market样式*/
+.market{width:1000px;height:305px;margin:0 auto;padding-top:13px;}
+.market h2{height:52px;font-size:18px;line-height:52px;font-weight:100;padding-left:23px;}
+.market dl{float:left;width:213px;height:200px;margin:0 18px }
+.marke dt{width:213px;height:137px}
+.market dd{width:213px;height:48px;font-size:12px;line-height:24px}
+/*这是market样式*/
+.footer{width:1000px;height:250px;margin:0 auto}
+.center{width:454px;height:250px;}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0}
+li{list-style:none;}
+a{text-decoration:none}
+img{display:block;border:0}
+ul{width:500px;height:100px;background:blue;margin:0 auto}
+li{float:left;padding:0 10px;margin:0 5px;height:42px}
+li span{background:url(../images/tabright.gif) right top;display:block;height:42px;font-size:14px;line-height:42px;float:left;color:#fff;padding-left:6px;padding-right:10px}
+li em{display:block;background:url(../images/tableft.gif);height:42px;float:left;width:4px;}
+li a:hover em{background-position:0 -42px}
+li a:hover span{background-position:right -42px}
+

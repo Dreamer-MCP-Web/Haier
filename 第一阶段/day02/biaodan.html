@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>表单</title>
+<style type="text/css">
+	.box{"width:200px;height:200px;color:red;text-align:center;}
+</style>
+</head>
+
+<body>
+	<div class="box">自我介绍</div>
+
+
+
+
+
+
+
+
+
+<form>
+	账号：<input type="text" placeholder="请输入账号"/>
+    <br/><br/>
+    密码：<input type="password" placeholder="请输入密码"/>
+     <br/><br/>
+    性别：男<input type="radio" name="mal" checked="checked"/>
+    	女<input type="radio" name="mal"/><br/><br/>
+    爱好：足球<input type="checkbox">
+    篮球<input type="checkbox">
+    羽毛球<input type="checkbox">
+    乒乓球<input type="checkbox">
+    网球<input type="checkbox"><br/><br/>
+    国家：<select name="birth">
+    			<option>请选择</option>
+    		<optgroup label="亚洲">
+    			<option>中国</option>
+           	 	<option>韩国</option>
+           	 	<option>日本</option>
+            	<option>朝鲜</option>
+            	<option>越南</option>
+            </optgroup>
+            <optgroup label="欧洲">
+    			<option>英国</option>
+           	 	<option>德国</option>
+           	 	<option>法国</option>
+            	<option>意大利</option>
+            	<option>比利时</option> 
+            </optgroup>  
+    	</select><br/><br/>
+   说明：<textarea cols="20" rows="10">
+        </textarea>
+        <button>下一步</button>
+        <br/><br/>
+        <input type="submit"/>
+</form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+li{list-style:none}
+*{margin:0;padding:0;}
+.sing{width:240px;height:170px;position:relative;margin:100px auto;border:10px solid #efefef;}
+.box{width:240px;height:170px;overflow:hidden;position:absolute;left:0;top:0}
+ul{padding-top:3px;padding-left:4px}
+#wuhan{background:url(../images/tu1.gif) no-repeat 170px 20px}
+#beijing{background:url(../images/tu1.gif) no-repeat 170px 80px}
+#shanghai{background:url(../images/tu1.gif) no-repeat 170px 140px}
+.box li{font-size:12px;width:156px;height:14px;line-height:14px;background:url(../images/list.jpg) no-repeat left center;padding-left:12px;margin-top:10px}
+.number{position:absolute;right:0;top:0}
+.number li{width:30px;height:56px;background:#525552;font-size:12px;line-height:56px;}
+.number a{color:white;text-decoration:none}

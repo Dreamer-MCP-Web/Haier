@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+li{list-style:none;}
+img{border:0;display:block;}
+body{font-family:"微软雅黑";}
+/*以上是重置样式*/
+
+.header{width:1000px;height:100px;margin:0 auto;}
+
+.logo{float:left;margin:41px 0 0 21px;}
+.biaodan{float:right;width:225px;height:26px;border:1px solid #e5e5e5;background:#f1f1f1;margin-top:39px;margin-right:20px;}
+.tex{background:0;border:0;color:#999999;line-height:26px;height:26px;padding:0 0 0 15px;width:180px;}
+.sub{background:url(../images/search.jpg);width:16px;height:13px;border:0;}
+/*以上是头部*/
+
+.nav{width:974px;height:59px;background:#313131;margin:0 auto;padding-left:26px;}
+.nav li{float:left;width:120px;border-right:1px solid #4a4a4a;height:59px;line-height:59px;text-align:center;font-size:14px;}
+.nav a{color:#fff;}
+.nav .noline{border:0;}
+/*以上是导航*/
+
+.banner{width:1000px;height:463px;margin:0 auto;}
+/*以上是banner图*/
+
+
+.news{width:1000px;height:240px;margin:0 auto;}
+.newslist{width:479px;height:204px;float:left;padding-left:21px;padding-top:16px;padding-bottom:20px;}
+.biaoti{height:60px;font-size:18px;line-height:60px;font-weight:100;}
+.newslist li{font-size:12px;line-height:24px;background:url(../images/icon.jpg) no-repeat left;padding-left:13px;width:310px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.newslist a{color:#4e4e4e;}
+
+
+
+
+.jieshao{width:216px;height:224px;background:#f1f1f1;float:left;padding-left:24px;padding-top:16px;}
+.part01{height:26px;line-height:26px;font-size:14px;margin-top:12px;}
+.part02{height:24px;line-height:24px;font-size:12px;}
+
+.part03{width:193px;height:48px;line-height:24px;font-size:12px;margin-top:15px;color:#b2b2b2;}
+
+
+.rencai{width:236px;height:224px;background:#fbfbfb url(../images/bg.jpg) no-repeat right bottom;float:right;padding-top:16px;padding-left:24px;}
+.part04{width:180px;height:48px;line-height:24px;font-size:12px;margin-bottom:50px;}
+/*以上是新闻列表*/
+
+.product{width:1000px;height:292px;margin:0 auto;padding-top:13px;}
+.product h2{height:52px;line-height:52px;font-size:18px;padding-left:24px;font-weight:normal;}
+
+.pro-list dl{width:210px;height:196px;float:left;margin:0 20px;}
+.pro-list dd{line-height:24px;font-size:12px;margin-top:13px;}
+.pro-list a{color:#565656;}
+/*yishangshichanpin*/
+
+.footer{width:1000px;height:230px;background:#e5e5e5;margin:0 auto;padding-top:20px;}
+
+.center{width:454px;height:230px;float:left;margin-left:19px;}
+.biaoti02{height:37px;line-height:37px;font-size:16px;font-weight:normal;border-bottom:1px solid #c1c1c1;padding-left:13px;}
+.jishu{width:151px;height:230px;float:left;margin-left:50px;}
+.yingxiao{width:255px;height:230px;float:right;margin-right:20px;}
+.help01{height:120px;float:left;margin-top:15px;}
+.help01 li{line-height:24px;font-size:12px;background:url(../images/jiantou.jpg) no-repeat 7px;padding-left:19px;}
+.help01 a{color:#787878;}
+
+
+
+.w151{width:151px;}
+.w193{width:193px;}
+.w110{width:110px;}
+.map{padding:15px 0 0 32px;}
+
+
+.footer02{width:980px;height:62px;background:#ff0;margin:0 auto;padding-top:21px;padding-left:20px;}
+.foot-left{font-size:12px;color:#ccc;float:left;}
+.foot-left a{font-size:12px;color:#ccc;margin:0 7px;}
+.foot-right{float:right;}

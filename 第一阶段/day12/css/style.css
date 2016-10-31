@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+.xinxi{width:408px;height:500px;background:#e6e6e6;margin:0 auto;overflow:hidden}
+.xinxi p{margin-top:76px;padding-left:260px}
+#name{margin-top:15px;margin-left:10px}
+#ads{margin-top:15px}
+.geren{width:360px;border:0;border-top:1px solid #ccc;margin-top:18px;margin-left:25px;}
+.geren legend{font-size:10px;font-weight:900;}

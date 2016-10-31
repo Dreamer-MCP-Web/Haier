@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+li{list-style:none}
+a{text-decoration:none;color:#343432}
+img{display:block;border:0}
+/*以上是重置样式*/
+.header{width:100%;height:35px;background:#e4e4e4}
+.headercenter{width:1003px;height:35px;margin:0 auto;}
+.headercenter li{float:left;font-size:12px;line-height:35px;height:35px;padding:0 9px;background:url(../images/line.jpg) no-repeat right}
+.language{float:right;}
+.language li{background:0}
+input{float:left}
+.language form{padding-top:10px;height:25px;}
+.tex{width:140px;height:20px;margin-left:7px;border:0}
+.sub{width:24px;height:20px;background:url(../images/search.jpg);border:0;margin-left:6px;}
+/*以上是header样式*/
+
+.logo{width:100%;height:98px;}
+.logocenter{width:1003px;height:98px;margin:0 auto;background:url(../images/beijing.jpg) no-repeat 685px 7px;overflow:hidden}
+h1{width:339px;height:49px;margin-top:19px;margin-left:15px}
+
+
+.nav{width:100%;height:45px;background:#d92b34}
+.navcenter{width:1003px;height:45px;margin:0 auto;background:#c8141f}
+.navcenter ul{margin-left:10px}
+.navcenter li{float:left;font-size:12px;line-height:45px;padding:0 19px}
+/*以上是nav样式*/
+.news-right{width:333px;height:327px;float:left;border-bottom:2px solid #c8141f}
+.news{width:100%;height:329px;background:#e6e6e6}
+.newscenter{width:1003px;height:329px;margin:0 auto;}
+.banner{width:670px;height:329px;float:left;}
+
+.news-list li{width:251px;height:47px;font-size:12px;line-height:18px;border-bottom:1px dashed #d9d9d9;padding-top:9px;margin-left:28px}
+.news-list .jiantou{text-align:right;border:0}
+/*以上是news样式*/
+.main{width:1003px;height:467px;margin:0 auto;padding:38px 0 85px 0;}
+.main-left{width:271px;height:467px;float:left;}
+.pic{width:271px;height:209px;padding-top:4px}
+.biaoti{width:271px;height:39px;font-size:16px;line-height:39px;border-bottom:1px solid #ececec}
+.pic dt{width:271px;height:120px;float:left;margin-top:20px;}
+.pic dd{width:160px;height:28px;font-size:12px;line-height:28px;white-space:nowrap;overflow:hidden;
+text-overflow:ellipsis;margin:0 auto}
+.jiangzuo{width:271px;height:211px;margin-top:40px}
+.jiangzuo ul{padding-top:20px;}
+.jiangzuo li{width:271px;height:24px;font-size:12px;line-height:24px;}
+.jiangzuo a{width:200px;float:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.jiangzuo span{float:right;}
+/*以上是main-left样式*/
+
+.main-center{width:422px;height:467px;float:left;margin:0 30px 0 39px}
+.dongtai{width:422px;height:209px;margin-top:4px;}
+.dongtai h2{width:422px;}
+.dongtai1{width:412px;height:61px;margin-top:20px}
+.dongtai dt{width:60px;height:61px;float:left;background:#c8141f}
+.dongtai span{display:block;font-size:20px;line-height:34px;height:34px;}
+.dongtai em{display:block;font-size:10px;line-height:24px;height:24px;margin-top:3px;font-style:normal}
+.dongtai dd{float:right;width:335px;height:61px;font-size:12px;line-height:20px;}
+.dongtai h3{width:278px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dongtai p{color:#9b6f6c}
+.dongtai2{width:412px;height:61px;margin-top:14px}
+.gonggao{width:422px;height:214px;margin-top:40px;}
+.gonggao h2{width:422px;}
+.gonggao ul{padding-top:20px;}
+.gonggao li{width:422px;height:24px;font-size:12px;line-height:24px;}
+.gonggao a{width:300px;float:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gonggao span{float:right;}
+
+/*以上是main-center样式*/
+
+
+.main-right{width:241px;height:467px;float:left;}
+.mail h2{width:241px;color:#878986;margin-top:32px;}
+.tex01{float:left;width:216px;height:26px;border:1p solid #ccc;margin-top:32px;}
+.paw{float:left;width:216px;height:26px;border:1p solid #ccc;margin-top:4px;}
+.sub01{float:left;width:81px;height:24px;border:0;background:url(../images/denglu.jpg);margin-top:4px;}
+.mail a{float:left;margin:14px 0 0 50px;font-size:12px;}
+
+
